@@ -29,7 +29,7 @@ def train_model(data):
     return accuracy, report
 
 
-if __name__ == "__main__":
+if __name__ =="__main__":
     data = load_data()
     accuracy, report = train_model(data)
     print(f"Accuracy: {accuracy}")
